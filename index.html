@@ -4,12 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <center>
     <h1> Nadeeshani Ekanayaka</h1>
+    </center>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
+    <section id="home">
+        <img src="profile.jpeg" alt="profile">
+        <h1>Welcome to My Profile</h1>
+        <p>My name is Nadeeshani ekanayakaya. i am Software Engineer</p>
+    
+    </section>
 
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Nadeeshani Ekanayaka, a passionate developer who loves creating user-friendly websites.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Write your message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="feedback"></p>
+    </section>
+
+    <script src="script.js"></script>
 
 </body>
 </html>
