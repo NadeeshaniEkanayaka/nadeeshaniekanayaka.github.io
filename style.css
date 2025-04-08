@@ -1,94 +1,125 @@
+/* General Adjustments */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    background-color: aquamarine;
-}
-
-/* Header Navigation */
-header {
-    background-color: #333;
-    padding: 10px 0;
-}
-
-header nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
-header nav ul li {
-    margin: 0 15px;
-}
-
-header nav ul li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 600;
+  }
+  
+/* Navbar */
+.navbar {
+    background-color: #000; /* Dark background for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Navbar */
+.navbar {
+    background-color: #000; /* Dark background for the navbar */
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Header Section */
+  #header {
+    position: relative;
+    background-color: #000;
+    height: 500px;
     color: white;
+    overflow: hidden;
+    padding-top: 70px; /* Adjusts for the fixed navbar height */
+  }
+  
+  .bg-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .carousel-inner img {
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  
+  p.lead {
+    font-size: 1.5rem;
+    color: #ddd;
+  }
+  
+  a.btn {
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+  }
+  
+  a.btn:hover {
+    background-color: #0056b3;
     text-decoration: none;
-    font-weight: bold;
-}
-
-header nav ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styling */
-section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-#home {
-    background-color: #f4f4f4;
-}
-
-#about {
-    background-color: #ddd;
-}
-
-#contact {
-    background-color: #f4f4f4;
-}
-
-/* Form Styling */
-form {
-    max-width: 400px;
-    margin: 0 auto;
-}
-
-form label {
-    display: block;
-    margin-top: 10px;
-    font-weight: bold;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-form button {
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #555;
-}
-
-/* Feedback Message */
-#feedback {
-    color: green;
-    font-weight: bold;
-    margin-top: 20px;
-}
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.6rem;
+  }
+  
+  /* Card Hover Effects */
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+  }
+  
+  /* Skills Progress Bars */
+  .progress-bar {
+    background-color: #007bff;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: #ccc;
+  }
+  
